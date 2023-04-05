@@ -1,6 +1,8 @@
+DROP TABLE IF EXISTS pet;
+
 CREATE TABLE pet (
-    id SERIAL PRIMARY KEY,
-    age INTEGER NOT NULL,
+    id SERIAL,
+    age INTEGER,
     kind VARCHAR(25),
     name VARCHAR(25)
-)
+);

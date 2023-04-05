@@ -1,24 +1,32 @@
 ###
 
-GET http://localhost:8000/
+GET http://localhost:5000/
 
 
 ###
 
-GET http://localhost:8000/pets
+GET http://localhost:5000/pets
 
 ###
 
-GET http://localhost:8000/pets/0
+GET http://localhost:5000/pets/1
 
 ###
 
-GET http://localhost:8000/pets/1
+GET http://localhost:5000/pets/2
 
 ###
 
-GET http://localhost:8000/pets/2
+GET http://localhost:5000/pets/3
 
 ###
 
-GET http://localhost:8000/pets/-1
+GET http://localhost:5000/pets/4
+
+###
+
+POST http://localhost:5000/pets age=7 kind=lizard name=fooker
+
+###
+
+PATCH  http://localhost:5000/pets/1 age=999 kind=snake name=sam
