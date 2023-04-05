@@ -1,6 +1,6 @@
 CREATE TABLE pet (
-    id SERIAL,
+    id SERIAL PRIMARY KEY,
     age INTEGER NOT NULL,
-    kind VARCHAR,
-    name VARCHAR
+    kind VARCHAR(25),
+    name VARCHAR(25)
 )
